@@ -1,0 +1,6 @@
+
+pip install celery
+pip install Django
+pip install django-celery-beat
+pip install python-dateutil
+pip install redis
