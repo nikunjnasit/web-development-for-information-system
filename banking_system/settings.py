@@ -17,7 +17,7 @@ SECRET_KEY = 'po0172$69b@78ps4v^uhfxu6q--8ko7kpp7rbz420s_3w#sir%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['web00767.herokuapp.com']
 
 LOGIN_REDIRECT_URL = '/transactions/report'
 
@@ -116,7 +116,6 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'Asia/Manila'
@@ -134,9 +133,9 @@ MINIMUM_DEPOSIT_AMOUNT = 10
 MINIMUM_WITHDRAWAL_AMOUNT = 10
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [ 
+STATICFILES_DIRS = [
     BASE_DIR / "static",
-    ]
+]
 
 # Celery Settings to our website
 CELERY_BROKER_URL = 'redis://localhost:6379'
