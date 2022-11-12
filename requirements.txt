@@ -5,3 +5,4 @@ django-celery-beat
 python-dateutil
 redis
 honcho
+gunicorn
